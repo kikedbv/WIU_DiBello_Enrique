@@ -1,0 +1,42 @@
+body{
+	font-family: sans-serif, arial;
+	background-color: hsla(178, 100%, 50%, 0.07));
+	}
+	
+h1{
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: .7em;
+	color: hsl(346, 100%, 44%);
+	background-color: rgb(51,173,235);
+	padding: 20px;
+}
+
+h2{
+	color: #E00035;
+	background-color: #C4DD47;
+	padding: 6px;
+}
+
+h3{
+	color: #2F3338;
+	}
+
+h4{
+	color: #2F3338;
+	}
+
+p{
+	text-align: justify;
+	color: #585F69;
+	/*background-color: hsla(346, 0%, 58%, 0.16);*/
+}
+
+a {
+	color: #2F3338;
+}
+
+a:visited {
+	color: #2F3338;
+}
+
