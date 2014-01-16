@@ -73,7 +73,7 @@ li a:visited {
 li a:hover {
 	color: #ffffff;
 	background-color: #1EBCE3;
-	
+	padding: 8px;
 	}
 
 li a:active {
