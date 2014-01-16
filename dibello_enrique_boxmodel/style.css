@@ -1,0 +1,82 @@
+body{
+	font-family: arial, sans-serif;
+	background-color: hsla(178, 100%, 50%, 0.07));
+	font-size: 15px;	
+	}
+
+/* Centering the Page */	
+#center-page{
+	margin: auto;
+	width: auto;
+	}
+
+/* Headings */	
+h1{
+	font-family: varela;
+	text-shadow: 2px 2px #585F69;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: .7em;
+	color: hsl(346, 100%, 44%);
+	background-color: rgb(51,173,235);
+	padding: 20px;
+	font-weight: lighter;
+	margin: 0;
+}
+
+h2{
+	color: #E00035;
+	background-color: #C4DD47;
+	padding: 6px;
+	font-weight: lighter;
+}
+
+h3{
+	color: #2F3338;
+	font-weight: lighter;
+	font-style: italic;
+	}
+
+h4{
+	color: #2F3338;
+	font-weight: lighter;
+	}
+
+/* Paragraphs */
+p{
+	text-align: justify;
+	color: #585F69;
+	line-height: 110%;
+}
+
+/* List (nav) */
+ul li{
+	list-style-type: none;
+	display: inline-block;
+	/*background-color: #1EBCE3;*/
+	margin: 6px 2px 6px 2px;
+	padding: 8px;
+	height: 10%
+	width: 9%;
+	border: 5px solid #E00035;
+}
+
+/* Links */
+li a:link{
+	color: #E00035;
+	}
+	
+li a:visited {
+	color: #2F3338;
+}
+
+li a:hover {
+	color: #ffffff;
+	background-color: #1EBCE3;
+	
+	}
+
+li a:active {
+	color: #E00035;
+}
+
