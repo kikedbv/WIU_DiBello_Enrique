@@ -1,13 +1,17 @@
 body{
 	font-family: arial, sans-serif;
-	background-color: hsla(178, 100%, 50%, 0.07));
+	background-color: hsla(178, 100%, 50%, 0.03);
 	font-size: 15px;	
 	}
 
 /* Centering the Page */	
 #center-page{
-	margin: auto;
-	width: auto;
+	width: 70%;
+	margin: 0 auto 0 auto;
+	padding: 8px;
+	border: 3px solid #E00035;
+	border-radius: 0 0 0 3%; 
+	box-shadow: 10px 10px 5px #888888;
 	}
 
 /* Headings */	
@@ -53,17 +57,21 @@ p{
 ul li{
 	list-style-type: none;
 	display: inline-block;
-	/*background-color: #1EBCE3;*/
-	margin: 6px 2px 6px 2px;
+}
+
+li a{
+	display: block;
+	margin: 6px 3px 6px 3px;
 	padding: 8px;
-	height: 10%
-	width: 9%;
+	height: 10%;
+	width: auto;
 	border: 5px solid #E00035;
 }
 
 /* Links */
 li a:link{
 	color: #E00035;
+	text-decoration: none;
 	}
 	
 li a:visited {
@@ -73,7 +81,6 @@ li a:visited {
 li a:hover {
 	color: #ffffff;
 	background-color: #1EBCE3;
-	padding: 8px;
 	}
 
 li a:active {
