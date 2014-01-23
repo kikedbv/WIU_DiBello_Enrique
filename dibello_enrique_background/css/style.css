@@ -1,0 +1,142 @@
+body{
+	font-family: arial, sans-serif;
+	background-color: hsla(178, 100%, 50%, 0.03);
+	font-size: 15px;
+	background: url(../images/foxtail.png) repeat fixed top;	
+	}
+
+/* Centering the Page */	
+#center-page{
+	width: 70%;
+	margin: 0 auto 0 auto;
+	padding: 1%;
+	border: 3px solid #E00035;
+	border-radius: 0 0 0 3%; 
+	box-shadow: 10px 10px 5px #888888;
+	background: #b5f4fc; /* Old browsers */
+background: -moz-linear-gradient(top,  #b5f4fc 0%, #eaeaea 62%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b5f4fc), color-stop(62%,#eaeaea)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #b5f4fc 0%,#eaeaea 62%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #b5f4fc 0%,#eaeaea 62%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #b5f4fc 0%,#eaeaea 62%); /* IE10+ */
+background: linear-gradient(to bottom,  #b5f4fc 0%,#eaeaea 62%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5f4fc', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+
+	}
+
+/* Headings */	
+.heading1{
+	font-family: varela;
+	text-shadow: 2px 2px #585F69;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: .7em;
+	color: hsl(346, 100%, 44%);
+	background-color: rgb(51,173,235);
+	padding: 2%;
+	font-weight: lighter;
+	margin: 0;
+}
+
+h2{
+	color: #E00035;
+	background-color: #C4DD47;
+	padding: 0.6%;
+	font-weight: lighter;
+}
+
+h3{
+	color: #2F3338;
+	font-weight: lighter;
+	font-style: italic;
+	}
+
+h4{
+	color: #2F3338;
+	font-weight: lighter;
+	}
+	
+#apparatus_type h3 {
+	color: #E00035;
+	background-color: #C4DD47;
+	padding: 0.6%;
+	font-weight: lighter;
+}
+
+/* Paragraphs */
+p{
+	text-align: justify;
+	color: #585F69;
+	line-height: 110%;
+}
+
+/* List (nav) */
+ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+li a{
+	display: block;
+	margin: 6px 3px 6px 3px;
+	padding: 8px;
+	height: 10%;
+	width: auto;
+	border: 5px solid #E00035;
+}
+
+#apparatus_type li {
+	color: #585F69;
+	line-height: 110%;
+}
+
+/* Links */
+li a:link{
+	color: #E00035;
+	text-decoration: none;
+	}
+	
+li a:visited {
+	color: #2F3338;
+}
+
+li a:hover {
+	color: #ffffff;
+	background-color: #1EBCE3;
+	}
+
+li a:active {
+	color: #E00035;
+}
+
+/* Columns */
+
+#history {
+	width: 51%;
+	float: left;
+	margin: 1.5%;
+}
+
+#fire_apparatus {
+	clear: both;
+	margin: 0 1.5% 0 1.5%;
+}
+
+#apparatus_type, #shareholders {
+	/*width:20%; (That was the only solution I found)*/
+	float: left;
+	padding: auto;
+	margin: 1.5%;
+}
+
+#aerial_image {
+	width: 30%;
+	float: left;
+	padding-left: 1%;
+}
+
+/* Icon */
+.fire_icon {
+	background: rgb(51,173,235) url(../images/1390527166_k3b.png) no-repeat 22% 0;
+	background-size: contain;
+}
