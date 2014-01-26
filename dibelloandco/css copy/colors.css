@@ -1,0 +1,97 @@
+/**
+ * File: controls.css
+ * Description : Contains all necessary styling for the Valuate Template 
+ * Author: Mr.Vibe 
+ * Credits: www.VibeThemes.com
+ * Project: vOnePage HTML Tempalte
+ **/
+
+
+/*= To use any of below colors, simple give body the class yellow, orange or green ==*/
+/*==== Yellow color ====*/
+
+
+.yellow a:hover,
+.yellow .link,
+.yellow .herotext h2 strong,
+.yellow .head h2 strong,
+.yellow .punchline strong,
+.yellow .footernote strong,
+.yellow .latest_tweet strong,
+.yellow .latest_tweet a,
+.yellow .team_member:hover h4,
+.yellow .team_member ul li a:hover,
+.yellow .roundprogress h3 span,
+.yellow .latest_tweet .twitter_reply_icon:hover,
+.yellow .latest_tweet .twitter_fav_icon:hover,
+.yellow .latest_tweet .twitter_retweet_icon:hover,
+.yellow #scrolltop a:hover{
+	color: #F1c40f;
+	
+}
+.yellow .progressbar > span,
+.yellow .featurebox i{
+	background: #F1c40f;
+}
+
+
+/*==== Orange color ====*/
+
+
+.orange a:hover,
+.orange .link,
+.orange .herotext h2 strong,
+.orange .head h2 strong,
+.orange .punchline strong,
+.orange .footernote strong,
+.orange .latest_tweet strong,
+.orange .latest_tweet a,
+.orange .team_member:hover h4,
+.orange .team_member ul li a:hover,
+.orange .roundprogress h3 span,
+.orange .latest_tweet .twitter_reply_icon:hover,
+.orange .latest_tweet .twitter_fav_icon:hover,
+.orange .latest_tweet .twitter_retweet_icon:hover,
+.orange #scrolltop a:hover{
+	color: #c63100;
+	
+}
+.orange .progressbar > span,
+.orange .featurebox i{
+	background: #c63100;
+	}	
+
+/*==== Green color ====*/	
+.green a:hover,
+.green .link,
+.green .herotext h2 strong,
+.green .head h2 strong,
+.green .punchline strong,
+.green .footernote strong,
+.green .latest_tweet strong,
+.green .latest_tweet a,
+.green .team_member:hover h4,
+.green .team_member ul li a:hover,
+.green .roundprogress h3 span,
+.green .latest_tweet .twitter_reply_icon:hover,
+.green .latest_tweet .twitter_fav_icon:hover,
+.green .latest_tweet .twitter_retweet_icon:hover,
+.green #scrolltop a:hover{
+	color: #00d163;
+	
+}
+.green .progressbar > span,
+.green .featurebox i{
+	background: #00d163;
+	}	
+
+.orange a.button:hover,
+.yellow a.button:hover,
+.green a.button:hover{
+	color:#FFF;
+}	
+.orange a.button.primary:hover,
+.yellow a.button.primary:hover,
+.green a.button.primary:hover{
+	color:#444;
+}
