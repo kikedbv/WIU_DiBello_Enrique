@@ -1,0 +1,216 @@
+/* BODY */
+body{
+	width: 80%;
+	margin: 0 auto;
+	font-family: Roboto, Helvetica Neue,sans-serif;
+	font-size: 16px;
+}
+
+/* Wrapper */
+#wrapper{
+	background-color: #DDC798;
+	border: 1px solid #333333;
+	padding: 2%;
+	box-shadow: 10px 10px 5px #999;
+	background: #dbceb6; /* Old browsers */
+	background: -moz-linear-gradient(top,  #dbceb6 0%, #feecd8 100%, #7db9e8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dbceb6), color-stop(100%,#feecd8), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #dbceb6 0%,#feecd8 100%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #dbceb6 0%,#feecd8 100%,#7db9e8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #dbceb6 0%,#feecd8 100%,#7db9e8 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #dbceb6 0%,#feecd8 100%,#7db9e8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbceb6', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+
+/* Main Header */
+#header_logo{
+	padding: .5%;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	background-color: #A18B73;
+}
+
+#header_nav nav{
+	background-color:#A18B73;
+}
+
+#header_nav li{
+	list-style-type: none;
+	display: inline-block;
+	margin: .3% .3% .3% 0;
+	padding: 1%;
+}
+
+#header_nav li a{
+	color: #FFFAF3;
+	text-decoration: none;
+}
+
+#header_nav li a:hover{
+	background-color: #FEECD8;
+	color: grey;
+	padding: .5%;
+	transition: padding .25s;
+}
+
+#header_image img{
+	width: 100%;
+	height: 100%;
+}
+
+/* About Us */
+#about h2{
+	margin: 0 45% 0 45%;
+}
+
+#about_text{
+	float: left;
+	width: 55%;
+}
+
+#mission{
+	float: right;
+	width: 40%;
+}
+
+/* Courses */
+#courses h2{
+	margin: 0 45% 0 45%;
+}
+
+#courses{
+	clear: both;
+}
+
+#ppl_course{
+	float: left;
+	width: 40%;
+	margin: 20px;
+}
+
+#cpl_course{
+	float: right;
+	width: 40%;
+	margin: 20px;
+}
+
+#ppl_rate{
+	clear: both;
+	margin: 20px;
+	width: 40%;
+	float: left;
+}
+
+#ppl_rate table{
+	/* STYLE */
+}
+
+#cpl_rate{
+	clear: right;
+	margin: 20px;
+	width: 40%;
+	float: right;
+}
+
+#cpl_rate table{
+	/* STYLE */
+}
+
+/* Contact Us */
+#contact{
+	clear: both;
+}
+
+#contact h2{
+	margin: 0 44% 0 44%;
+}
+
+
+
+label{
+	width: 10%;
+	float: left;
+	margin-top: .3%;
+	padding: .3%;
+}
+
+.input_form{
+	padding: .5%;
+	border-bottom: 1px solid #E8E8E8;
+}
+
+.input_form input{
+	height: .2%;
+	width: 22%;
+	padding: .5% .8%;
+    transition: padding .25s;
+}
+
+.input_form textarea{
+	padding: .5%;
+	width: 22.8%;
+	height: 6.5%;
+	transition: padding .25s;
+}
+
+.input_form input:focus, textarea:focus{
+	outline: none;
+	padding-right: 5%;
+}
+
+.input_form input:hover, textarea:hover{
+	cursor: pointer;
+}
+
+.input_form input:focus:invalid, .input_form textarea:focus:invalid{
+	box-shadow: 0 0 5px #d45252;
+}
+
+.input_form input:focus:valid, .input_form textarea:focus:valid{
+	box-shadow: 0 0 5px #D1FF75;
+}
+
+#submit_form input{
+	margin-left: 112px;
+	padding: .6% 2%;
+	
+	background-color: #68b12f;
+	border: 1px solid #509111;
+	border-bottom: 1px solid #5b992b;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 #9fd574;
+    -webkit-box-shadow: 0 1px 0 0 #9fd574 inset ;
+    -moz-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -ms-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -o-box-shadow: 0 1px 0 0 #9fd574 inset;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 #396715;
+}
+
+#submit_form input:hover{
+	cursor: pointer;	
+}
+
+#submit_form input:focus{
+	outline: none;
+}
+
+#submit_form input:active {
+	border: 1px solid #20911e;
+	box-shadow: 0 0 10px 5px #356b0b inset;
+    -webkit-box-shadow:0 0 10px 5px #356b0b inset ;
+    -moz-box-shadow: 0 0 10px 5px #356b0b inset;
+    -ms-box-shadow: 0 0 10px 5px #356b0b inset;
+    -o-box-shadow: 0 0 10px 5px #356b0b inset;
+}
+
+form:first-child{
+	border-bottom: 1px solid #777;
+	margin: 2%;
+}

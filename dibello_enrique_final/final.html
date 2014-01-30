@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Final Project</title>
+		<link href="css/style.css" type="text/css" rel="stylesheet">
+	</head>
+
+<body>
+	<div id="wrapper">
+		<!--HEADER-->
+		<section id="header_nav">
+			<!--academy name/logo-->
+			<div id="header_logo">
+				<h1>Charles Academy</h1>
+			</div>
+			
+			<!--navigation bar-->
+			<nav>
+				<ul>
+					<li><a href="final.html">Home</a></li>
+					<li><a href="#about">About Us</a></li>
+					<li><a href="#courses">Courses</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			
+			<!--header image-->
+			<figure id="header_image">
+				<img src="images/eurocopter_ec135.jpg" />
+				<figcaption>A view of the Eurocopter ec135</figcaption>
+			</figure>	
+		</section>
+		
+		<!--ABOUT US-->
+		<section id="about">
+			<div>
+				<h2>About Us</h2>
+			</div>	
+			<div id="about_text">
+				<p>Because we are a Schweizer Distributor, you'll have the luxury of training 
+				in the newest Schweizer 300 series helicopters.  The 300 series has the finest
+		    	safety record of any FAA certified, piston-powered helicopter which is 
+		    	substantiated by the National Transportation Safety Board (NTSB) accident 
+		    	statistics.  Our equipment is meticulously maintained to factory standards 
+		    	by our factory-trained personnel.  Tomlinson Aviation is committed to 
+		    	providing you with the safest, most thorough training available.  We are a 
+		    	Part 135 operator, so we understand how commercial operators work and can 
+		    	transfer this knowledge to our students.  At Tomlinson, you will learn from 
+		    	instructors who are out slaying pipeline patrols and air charter, and as a 
+		    	result you will receive practical and in-depth training.</p>
+		    </div>
+		    
+		    <div>
+		    	<aside id="mission">
+		    		<h3>Mission</h3>
+		    		<p>We aim to provide the student with the best possible learning 
+		    		environment and quality instruction at the lowest possible cost.</p>
+		    	</aside>
+		    </div>	
+		</section>
+		
+		<!--COURSES-->
+		<section id="courses">
+			<div>
+				<h2>Courses</h2>
+			</div>
+			<!--ppl course-->
+			<div id="ppl_course">
+				<article>
+					<header>
+						<h3>Private Pilote License (PPL)</h3>
+					</header>
+					<p>This course begins the initial journey of your helicopter training 
+					and will be your formal introduction to the world of flying. This will 
+					also be the first step of your training to become a professional 
+					helicopter pilot.</p>
+					<footer>
+						<a href="#ppl_rate">Rates</a>
+					</footer>	
+				</article>
+			</div>
+			
+			<!--cpl course-->
+			<div id="cpl_course">
+				<article>
+					<header>
+					<h3>Commercial Pilot License (CPL)</h3>
+					</header>
+					<p>This course is mean to prepare you to the real world jobs. With a 
+					commercial license you will be able to get paid as a pilot working for an 
+					airline, off-shore, emergency services or private.</p>
+					<footer>
+						<a href="#cpl_rate">Rates</a>
+					</footer>
+				</article>
+			</div>	
+			
+			<!--ppl rate-->
+			<div id="ppl_rate">
+				<h4><abbr title="Private Pilot License">PPL</abbr> Rate</h4>
+				<table>
+					<tr>
+						<th>Description</th>	<th>Qty.</th>	<th>Cost</th>
+					</tr>
+					<tr>
+						<td>Dual Instruction 300CBi</td>	<td>30hrs</td>	<td>$300</td>
+					</tr>
+					<tr>
+						<td>Solo Practice</td>	<td>10hrs</td>	<td>$300</td>
+					</tr>
+					<tr>
+						<td>Ground Instruction</td>	<td>25hrs</td>	<td>$50</td>
+					</tr>
+					<tr>
+						<td>Written Test</td>	<td>1</td>	<td>$130</td>
+					</tr>
+					<tr class="price_total">
+						<td>Total</td>	<td></td>	<td>$13,380</td>
+					</tr>
+				</table>
+			</div>
+			
+			<!--cpl rate-->
+			<div id="cpl_rate">
+				<h4><abbr title="Commercial Pilot License">CPL</abbr> Rate</h4>
+				<table>
+					<tr>
+						<th>Description</th>	<th>Qty.</th>	<th>Cost</th>
+					</tr>
+					<tr>
+						<td>Dual Instruction 300CBi</td>	<td>25hrs</td>	<td>$300</td>
+					</tr>
+					<tr>
+						<td>Solo Practice</td>	<td>90hrs</td>	<td>$300</td>
+					</tr>
+					<tr>
+						<td>Ground Instruction</td>	<td>35hrs</td>	<td>$50</td>
+					</tr>
+					<tr>
+						<td>Written Test</td>	<td>1</td>	<td>$130</td>
+					</tr>
+					<tr class="price_total">
+						<td>Total</td>	<td></td>	<td>$36,380</td>
+					</tr>
+				</table>
+			</div>
+		</section>
+		
+		<!--CONTACT-->
+		<section id="contact">
+			<div>
+				<h2>Contact Us</h2>
+			</div>
+			<div id="contact_form">
+				<form action="#" method="post" name="contact_form">
+					<div class="input_form">
+						<label for="name">Name:</label>
+						<input type="text"  name="name" id="name" placeholder="Enter name here" required>
+					</div>
+					
+					<div class="input_form">
+						<label for="email">Email:</label>
+						<input type="text" name="email" id="email" placeholder="example@example.com" required>
+					</div>
+					
+					<div class="input_form">
+						<label for="interest">Interested in:</label>
+						<select name="interest" id="interest" required>
+							<option value="">Select</option>
+							<option value="ppl">PPL Course</option>
+							<option value="cpl">CPL Course</option>
+							<option value="other">Other</option>
+						</select>
+					</div>
+					
+					<div class="input_form">
+						<label for="message">Message:</label>
+						<textarea name="message" id="message" placeholder="Write a message here"></textarea>
+					</div>
+					
+					<div id="submit_form">
+						<input type="submit" value="Send Message">
+					</div>
+				</form>
+			</div>
+		</section>
+
+	</div>		
+</body>
+</html>
